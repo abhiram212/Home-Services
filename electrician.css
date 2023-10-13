@@ -1,0 +1,202 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.main
+{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .left
+{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.main .right
+{
+    flex-wrap: wrap;
+    text-align: center;
+}
+img
+{
+    height: 40vh;
+    width: 100%;
+    
+}
+.hr
+{
+    border-top: 4px solid grey;
+}
+.left1
+{
+    margin-top: 20px;
+}
+.main1
+{
+    margin:6% 6% 0% 6%;
+    background: transparent;
+}
+.linkimg
+{
+    border-radius: 20%;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    text-align: center;
+}
+.left1
+{
+    display: flex;
+}
+img:hover
+{
+    cursor: pointer;
+}
+.p
+{
+    padding-top: 5px;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.next
+{
+    margin-top:6%;
+    border-top: 4px solid grey;
+}
+#frequently,#Switch,#fan,#light,#wiring,#appliances,#cart
+{
+    margin:0 6%;
+}
+.freq
+{
+    display: flex;
+   
+}
+.lefti
+{
+    flex-basis: 50%;
+}
+.fa-star
+{
+    font-size: 10px;
+}
+.head
+{
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.diimg
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.middle
+{
+    text-align: center;
+    position: relative;
+}
+.middle .butn
+{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.butn
+{
+    border-radius: 8px;
+    width: 80%;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: white;
+    border: 2px solid black;
+    color: purple;
+    font-weight: 500;
+}
+.bat
+{
+    margin: 0;
+    padding: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: white;
+    color: purple;
+}
+.line
+{
+    margin-top: 26px;
+    width: 50%;
+}
+.divchange
+{
+    border-top: 8px solid grey;
+    margin-left: 6%;
+    width: 45%;
+    margin-top: 25px;
+}
+.butto
+{
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    width: 10%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+#cart
+{
+    display: flex;
+}
+.cart-left
+{
+    flex-basis: 60%;
+}
+.space
+{
+    padding-top: 20px;
+}
+@media only screen and (max-width:1000px) {
+    img
+    {
+        height: 30vh;
+        width: 80%;
+    }
+    .next
+    {
+        margin-top:11%;
+        border-top: 4px solid grey;
+    }
+    .lefti
+    {
+    flex-basis: 100%;
+    }
+    .line
+    {
+        width: 100%;
+    }
+    .butto
+    {
+        position: relative;
+        margin-top: 5px;
+        top: 10px;
+        right: 40px;
+        width: 120%;
+    }
+}

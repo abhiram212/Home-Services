@@ -1,0 +1,23 @@
+.hover-img
+{
+    transition: 0.3s  ease-in-out;
+    border-radius: 5%;
+    height:180px;
+    width:270px;
+    overflow: hidden;
+}
+.hover-img:hover
+{
+    transform: scale(1.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+.Details-img
+{
+    text-align: center;
+}
+.main-img
+{
+    height: 40vh;
+    width: 60%;
+}
